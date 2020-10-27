@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 :root {
   --greenBlue-color: #61f2f5;
   --grey-color: #434a54;
+  --font-buntu: "Ubuntu", sans-serif;
 }
