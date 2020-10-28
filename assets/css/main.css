@@ -18,7 +18,7 @@ html {
 header {
   background-color: var(--light-grey-color);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-family: var(--font-buntu);
 }
