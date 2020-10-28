@@ -9,7 +9,53 @@ html {
 }
 
 :root {
-  --greenBlue-color: #61f2f5;
+  --greenBlue-color: #60d0ad;
   --grey-color: #434a54;
+  --light-grey-color: #ccd1d9;
   --font-buntu: "Ubuntu", sans-serif;
+}
+
+header {
+  background-color: var(--light-grey-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-buntu);
+}
+
+/* LOGO */
+.logo-container {
+  width: 25rem;
+}
+.logo-container__image {
+  width: 25rem;
+  object-fit: cover;
+}
+
+/* ABOUT */
+.about {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+.about:hover {
+  color: var(--greenBlue-color);
+}
+
+/* ICONS */
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-item {
+  list-style: none;
+}
+.icon-item__image {
+  width: 5rem;
+}
+.icon-item__image:hover {
+  border: 1px solid var(--grey-color);
+  border-radius: 0.5rem;
+  background-color: var(--greenBlue-color);
 }
