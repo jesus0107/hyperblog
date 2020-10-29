@@ -70,12 +70,24 @@ header {
 
 /* MAIN */
 .home-main {
+  font-family: var(--font-buntu);
+  height: 100vh;
 }
 .hero {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url(/assets/images/background.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.hero-container {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  /* padding: 5%; */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-container__description {
+  padding: 5%;
 }
