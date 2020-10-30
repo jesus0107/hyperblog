@@ -21,6 +21,7 @@ html {
   --grey-color: #434a54;
   --light-grey-color: #ccd1d9;
   --font-buntu: "Ubuntu", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
 }
 
 header {
@@ -70,7 +71,7 @@ header {
 
 /* MAIN */
 .home-main {
-  font-family: var(--font-buntu);
+  font-family: var(--font-roboto);
   height: 100vh;
 }
 .hero {
@@ -86,10 +87,9 @@ header {
   text-align: center;
   width: 100%;
   height: 100%;
-  /* padding: 5%; */
   background-color: rgba(0, 0, 0, 0.5);
 }
 .hero-container__description {
-  padding: 5%;
+  padding-top: 10%;
   color: white;
 }
