@@ -72,7 +72,7 @@ header {
 /* MAIN */
 .home-main {
   font-family: var(--font-roboto);
-  height: 100vh;
+  height: 78vh;
 }
 .hero {
   font-size: 2.5rem;
