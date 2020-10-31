@@ -111,7 +111,7 @@ header {
 
 .home-footer a {
   text-decoration: none;
-  color: var(--light-purpple);
+  color: var(--grey-color);
 }
 .contact__button {
   padding: 0.5rem;
