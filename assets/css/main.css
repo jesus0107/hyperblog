@@ -92,8 +92,19 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .hero-container__description {
-  padding-top: 10%;
+  padding: 10% 0 5%;
   color: white;
+}
+.hero-container__btn-blog {
+  border-radius: 2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.hero-container__btn-blog:hover {
+  background-color: var(--grey-color);
 }
 
 /* FOOTER */
