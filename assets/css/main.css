@@ -93,7 +93,7 @@ header {
 }
 .hero-container__description {
   padding: 10% 0 5%;
-  color: var(--grey-color);
+  color: white;
 }
 .hero-container__btn-blog {
   border-radius: 2rem;
