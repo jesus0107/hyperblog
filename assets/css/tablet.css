@@ -1,0 +1,13 @@
+.home-body {
+  height: 100%;
+  position: initial;
+}
+
+.home-main {
+  height: 100vh;
+}
+
+.home-footer {
+  height: 4rem;
+  padding-top: 1rem;
+}

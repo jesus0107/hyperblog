@@ -1,0 +1,7 @@
+header {
+  flex-wrap: wrap;
+}
+
+.icons-container {
+  display: none;
+}
