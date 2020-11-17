@@ -5,3 +5,31 @@ header {
 .icons-container {
   display: none;
 }
+
+.about {
+  margin-bottom: 1rem;
+}
+
+.hero {
+  font-size: 2rem;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-container__description {
+  padding: 0 0 1rem;
+}
+.hero-container__btn-blog {
+  margin: 0 1%;
+}
+.home-footer {
+  height: initial;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.icons-container-footer {
+  display: flex;
+}
