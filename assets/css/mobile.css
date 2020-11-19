@@ -25,11 +25,11 @@ header {
   margin: 0 1%;
 }
 .home-footer {
-  height: initial;
+  height: fit-content;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
 }
 .icons-container-footer {
   display: flex;
+  margin-top: 1.6rem;
 }
